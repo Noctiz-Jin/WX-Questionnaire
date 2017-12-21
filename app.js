@@ -1,5 +1,10 @@
 //app.js
 App({
+
+  globalData: {
+    userInfo: null
+  },
+
   onLaunch: function () {
     // local storage
     var logs = wx.getStorageSync('logs') || []
@@ -31,8 +36,5 @@ App({
         }
       }
     })
-  },
-  globalData: {
-    userInfo: null
   }
 })
