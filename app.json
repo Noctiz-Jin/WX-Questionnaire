@@ -1,12 +1,14 @@
 {
-  "pages":[
+  "pages": [
+    "pages/splash/splash",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/question/question"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "Noctiz",
+    "navigationBarTextStyle": "black"
   }
 }

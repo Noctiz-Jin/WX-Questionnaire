@@ -1,0 +1,11 @@
+<!--pages/Question/question.wxml-->
+<view class="rootView">
+  <view class="question">
+    <text class="question-text">{{questionText}}</text>
+  </view>
+  <view class="option">
+    <block wx:for="{{options}}" wx:for-item="option" wx:key="id">
+      <button class="option-item">{{index + 1}}. {{option.content}}</button>
+    </block>
+  </view>
+</view>

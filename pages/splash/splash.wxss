@@ -1,0 +1,13 @@
+/* pages/splash.wxss */
+.rootView{
+  margin: 10rpx;
+}
+
+.welcome{
+  margin-top: 50rpx;
+  padding: 10rpx 5rpx 10rpx 5rpx;
+}
+
+.next{
+  margin-top: 200rpx;
+}

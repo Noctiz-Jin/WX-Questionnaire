@@ -1,0 +1,10 @@
+<!--pages/splash.wxml-->
+<view class="rootView">
+  <view class="welcome">
+    <image class="welcome-image" src="../../image/LanternIcon.png" mode="aspectFit">
+    </image>
+  </view>
+  <view class="next">
+    <button class="next-button" bindtap="nextPage" type="primary" size="default">进入选择</button>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/Question/question.wxss */
+.question-text {
+  font-size: 20
+}
