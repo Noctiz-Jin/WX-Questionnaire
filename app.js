@@ -2,7 +2,9 @@
 App({
 
   globalData: {
-    userInfo: null
+    userInfo: null,
+    sex: 0,
+    age: 0
   },
 
   onLaunch: function () {

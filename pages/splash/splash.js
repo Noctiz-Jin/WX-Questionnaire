@@ -12,7 +12,7 @@ Page({
 
   nextPage: function () {
     wx.redirectTo({
-      url: '../question/question'
+      url: '../question/question?pp=1'
     })
   },
 

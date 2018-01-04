@@ -3,7 +3,8 @@
     "pages/splash/splash",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/question/question"
+    "pages/question/question",
+    "pages/result/result"
   ],
   "window": {
     "backgroundTextStyle": "light",

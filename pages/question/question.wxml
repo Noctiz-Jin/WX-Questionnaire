@@ -5,7 +5,7 @@
   </view>
   <view class="option">
     <block wx:for="{{options}}" wx:for-item="option" wx:key="id">
-      <button class="option-item">{{index + 1}}. {{option.content}}</button>
+      <button id="{{option.id}}" class="option-item" bindtap="chosen">{{option.content}}</button>
     </block>
   </view>
 </view>

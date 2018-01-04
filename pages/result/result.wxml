@@ -1,0 +1,9 @@
+<!--pages/result/result.wxml-->
+<view class="rootView">
+  <view class="result">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <text>{{sex}}</text>
+  <text>{{age}}</text>
+</view>
